@@ -57,9 +57,9 @@ inputs:
     description: 'Passphrase used to encrypt Talend license in your repository. Make sure to store the passphrase in a secret.'
     required: yes
 
-#runs:
- # using: 'docker'
- # image: 'Dockerfile'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
 
 branding:
   icon: 'upload-cloud'
